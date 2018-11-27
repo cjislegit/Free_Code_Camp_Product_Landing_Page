@@ -1,2 +1,2 @@
-# Free_Code_Camp_Projects
-The projects created while earning my Free Code Camp Certification 
+# Free Code Camp Product Landing Page Project
+My version of Free Code Camp's Product Landing Page project. 
