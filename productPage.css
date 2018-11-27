@@ -1,0 +1,236 @@
+/* Global Styles */
+
+body,
+html {
+  background-color: #eff1f3;
+  margin: 0%;
+  height: 100%;
+  margin-top: 55px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type='button'] {
+  height: 40px;
+  background-color: #223843;
+  color: #eff1f3;
+  border: none;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  body,
+  html {
+    margin-top: 50px;
+  }
+}
+
+/* Header Styles */
+
+header nav {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #eff1f3;
+}
+
+header nav h1 {
+  padding-left: 70px;
+}
+
+header nav ul {
+  text-align: right;
+  align-self: center;
+}
+
+header nav li {
+  display: inline;
+  padding-right: 70px;
+}
+
+header nav img {
+  height: 50px;
+  width: 50px;
+}
+
+.mainContent {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+  }
+
+  header nav h1 {
+    padding: 0;
+  }
+
+  header nav ul {
+    padding: 0;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+
+/* Hero Styles */
+
+.hero form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h2 {
+  margin-bottom: 10px;
+}
+
+.hero form input {
+  margin-bottom: 15px;
+}
+
+.hero a {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
+}
+
+/* Poduct Benefit Styles */
+
+@media only screen and (max-width: 600px) {
+  .icon {
+    display: none;
+  }
+
+  .productText {
+    display: flex;
+    text-align: center !important;
+    width: 100% !important;
+  }
+}
+
+.productBenefits {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.benefit {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5%;
+  color: #223843;
+}
+
+.productText {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 750px;
+}
+
+.productBenefits a {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
+
+/* Products Styles */
+
+.products {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+
+.product {
+  width: 25%;
+  border: solid black;
+  margin-bottom: 50px;
+}
+
+.product div {
+  display: flex;
+  font-weight: bold;
+  background-color: #dddddd;
+  text-transform: uppercase;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.better {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+
+.product ul {
+  padding: 0;
+}
+
+.product li {
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+
+.product input[type='button'] {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .products {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Footer Styles */
+
+footer {
+  padding-top: 20px;
+  background-color: #dddddd;
+  text-align: right;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer ul {
+  margin-bottom: 5px;
+}
+
+footer li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer p {
+  margin-right: 20px;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
